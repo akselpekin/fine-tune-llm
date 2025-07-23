@@ -8,10 +8,6 @@ This repository demonstrates how to fine-tune a [GPT-2](https://huggingface.co/o
 - Supports training with very small to large datasets in `data.jsonl` format.
 - Includes interactive test script for quick evaluation after training.
 
-## Chat.py usage
-
-Before running open the `chat.py` file in a text editor and change the `line 4(MODEL_NAME)` to latest model checkpoint inside the `results` folder, if no checkpoint is available tune the model first via `tune.py` and wait for the process to complete.
-
 ## Requirements
 
 - Python 3.13+
@@ -26,3 +22,7 @@ Before running open the `chat.py` file in a text editor and change the `line 4(M
 ```bash
 pip install torch transformers datasets
 ```
+
+## Chat.py usage
+
+Before running open the `chat.py` file in a text editor and change the `line 4(MODEL_NAME)` to latest model checkpoint inside the `results` folder, if no checkpoint is available tune the model first via `tune.py` and wait for the process to complete.
