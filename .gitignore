@@ -1,6 +1,11 @@
 #macos
 .DS_Store
 
+#custom
+results/
+cached_lm_GPT2Tokenizer_64_tiny_data.txt
+cached_lm_GPT2Tokenizer_64_tiny_data.txt.lock
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
